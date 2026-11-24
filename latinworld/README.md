@@ -18,7 +18,9 @@ npm run build   # production build check
 1. vercel.com → Add New → Project → import this GitHub repository.
 2. Set **Root Directory** to `latinworld`.
 3. Optional environment variable: `NEXT_PUBLIC_SITE_URL` = your final domain (used in sitemap and SEO tags).
-4. Deploy. Every push to the branch redeploys automatically.
+4. Admin analytics: in the project, Storage → Create Database → Neon (Postgres) → connect. This sets `DATABASE_URL`.
+5. Settings → Environment Variables → add `ADMIN_PASSWORD` (a long random password). Then open `/admin`.
+6. Deploy. Every push to the branch redeploys automatically.
 
 ## Adding a city
 
