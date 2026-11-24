@@ -97,3 +97,29 @@ h2 { margin-top: 36px; font-size: 1.3rem; }
 
 .disclaimer { margin-top: 40px; font-size: .8rem; color: var(--muted); }
 .foot { text-align: center; color: var(--muted); font-size: .8rem; padding: 24px 16px; }
+
+/* Admin dashboard */
+.admin h1 { margin-top: 24px; }
+.admin-login { display: flex; gap: 8px; }
+.admin-login input, .admin-login button {
+  font: inherit; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--panel); color: var(--text);
+}
+.admin-login button { background: var(--accent); color: #fff; border-color: var(--accent); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.tile { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+.tile-label { display: block; font-size: .8rem; color: var(--muted); }
+.tile strong { display: block; font-size: 1.6rem; font-variant-numeric: tabular-nums; }
+.tile small { color: var(--muted); font-size: .72rem; }
+.admin-box { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 14px 0; }
+.admin-box h3 { margin: 0 0 8px; font-size: 1rem; }
+.admin-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0 14px; }
+.admin table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+.admin th, .admin td { text-align: left; padding: 5px 4px; border-bottom: 1px solid var(--line); }
+.admin .num { text-align: right; font-variant-numeric: tabular-nums; }
+.bars { display: flex; align-items: flex-end; gap: 2px; height: 140px; border-bottom: 1px solid var(--line); }
+.bar-slot { flex: 1; height: 100%; display: flex; align-items: flex-end; cursor: default; }
+.bar-slot:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.bar { width: 100%; background: var(--accent); border-radius: 4px 4px 0 0; min-height: 0; }
+.bars-axis { display: flex; justify-content: space-between; font-size: .72rem; color: var(--muted); margin: 4px 0 8px; }
+.admin details summary { cursor: pointer; color: var(--muted); font-size: .85rem; }

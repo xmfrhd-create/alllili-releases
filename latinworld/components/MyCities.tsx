@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { track } from "@/components/Tracker";
 
 interface Trip {
   slug: string;
@@ -40,6 +41,7 @@ export function MyCities({ cities }: { cities: { slug: string; name: string }[] 
     e.preventDefault();
     const city = cities.find((c) => c.slug === slug);
     if (!city) return;
+    track("add_city", { city: slug });
     save([...trips.filter((t) => t.slug !== slug), { slug, name: city.name, from: from || undefined, to: to || undefined }]);
   }
 

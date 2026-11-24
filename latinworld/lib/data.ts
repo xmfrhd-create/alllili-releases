@@ -1,5 +1,9 @@
 import { cities } from "@/data/cities";
-import { festivals, schools, socials } from "@/data/listings";
+import { festivals, schools as baseSchools, socials as baseSocials } from "@/data/listings";
+import { worldSchools, worldSocials } from "@/data/world";
+
+const socials = [...baseSocials, ...worldSocials];
+const schools = [...baseSchools, ...worldSchools];
 import { GENRES, type City, type Genre, type RecurringSocial, type Weekday } from "@/lib/types";
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://latinworld.vercel.app";
