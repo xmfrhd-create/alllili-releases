@@ -20,7 +20,7 @@ export const metadata: Metadata = { title: "Admin", robots: { index: false, foll
 const COOKIE = "lw_admin";
 
 function token() {
-  return createHash("sha256").update(`latinworld-admin:${process.env.ADMIN_PASSWORD}`).digest("hex");
+  return createHash("sha256").update(`dancingtonight-admin:${process.env.ADMIN_PASSWORD}`).digest("hex");
 }
 
 async function isAuthed() {

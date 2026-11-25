@@ -6,7 +6,7 @@ import { Tracker } from "@/components/Tracker";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "Latinworld: where to dance Latin, in any city", template: "%s | Latinworld" },
+  title: { default: "Dancing Tonight: Latin dance socials in any city", template: "%s | Dancing Tonight" },
   description:
     "Find salsa, bachata, kizomba and zouk socials, festivals and classes in your city or the city you are traveling to.",
 };
@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Tracker />
         <header className="top">
           <Link href="/" className="logo">
-            Latin<span>world</span>
+            Dancing<span>Tonight</span>
           </Link>
           <nav>
             <Link href="/festivals">Festivals</Link>
@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main>{children}</main>
         <footer className="foot">
-          <p>Latinworld · Salsa · Bachata · Kizomba · Zouk</p>
+          <p>Dancing Tonight · Salsa · Bachata · Kizomba · Zouk</p>
         </footer>
       </body>
     </html>

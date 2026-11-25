@@ -1,4 +1,6 @@
-# Latinworld PRD v0.2
+# Dancing Tonight PRD v0.2
+
+> 2026년 11월 25일: 서비스 이름을 Latinworld에서 **Dancing Tonight**으로 변경. 아래 본문의 "Latinworld"는 모두 Dancing Tonight을 뜻합니다.
 
 작성일: 2026년 11월 24일 · 상태: 초안 v0.2 (v0.1의 "라틴오브더라틴"안을 대체)
 

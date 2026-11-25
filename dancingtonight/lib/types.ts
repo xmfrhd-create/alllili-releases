@@ -1,4 +1,4 @@
-// The four dance styles Latinworld covers.
+// The four dance styles Dancing Tonight covers.
 export const GENRES = ["salsa", "bachata", "kizomba", "zouk"] as const;
 export type Genre = (typeof GENRES)[number];
 

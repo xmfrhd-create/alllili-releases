@@ -6,7 +6,7 @@ const socials = [...baseSocials, ...worldSocials];
 const schools = [...baseSchools, ...worldSchools];
 import { GENRES, type City, type Genre, type RecurringSocial, type Weekday } from "@/lib/types";
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://latinworld.vercel.app";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://dancingtonight.vercel.app";
 
 // A city page is shown to Google only when it has real content.
 // Thin pages hurt the whole site in Google's ranking (scaled content policy).

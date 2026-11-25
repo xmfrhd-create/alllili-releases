@@ -11,7 +11,7 @@ interface Trip {
   to?: string;
 }
 
-const KEY = "latinworld.mycities";
+const KEY = "dancingtonight.mycities";
 
 // Saved in this browser only, until login exists.
 export function MyCities({ cities }: { cities: { slug: string; name: string }[] }) {

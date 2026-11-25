@@ -1,4 +1,4 @@
-# Latinworld
+# Dancing Tonight
 
 Where to dance Latin (salsa, bachata, kizomba, zouk), in any city, any week.
 
@@ -16,7 +16,7 @@ npm run build   # production build check
 ## Deploy on Vercel
 
 1. vercel.com → Add New → Project → import this GitHub repository.
-2. Set **Root Directory** to `latinworld`.
+2. Set **Root Directory** to `dancingtonight`.
 3. Optional environment variable: `NEXT_PUBLIC_SITE_URL` = your final domain (used in sitemap and SEO tags).
 4. Admin analytics: in the project, Storage → Create Database → Neon (Postgres) → connect. This sets `DATABASE_URL`.
 5. Settings → Environment Variables → add `ADMIN_PASSWORD` (a long random password). Then open `/admin`.
