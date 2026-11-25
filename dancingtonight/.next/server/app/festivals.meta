@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/festivals/layout,_N_T_/festivals/page,_N_T_/festivals"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/festivals/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/830a337350acbdf72380d9bf2835623e0495c37662d34320fb062ac323be9d7f/$/festivals",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/festivals/page"
+    },
+    "isFallback": false
+  }
+}

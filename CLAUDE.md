@@ -1,14 +1,9 @@
-# Working rules for this repository
+# 올리리 설치 파일 저장소 작업 규칙
 
-## Owner preference: ship automatically
-The owner wants every app or service built here to go live without manual steps.
-After finishing a change, Claude should, without asking again:
-1. Commit and push to the working branch.
-2. Open a pull request into `main` and merge it (squash) once the build passes.
-3. Make sure the Vercel project deploys from `main` (production) and report the live URL.
+이 저장소는 올리리 설치 파일만 담습니다. 다른 서비스의 코드는 넣지 않고, 서비스마다 별도 저장소를 만듭니다.
 
-## Projects
-* `dancingtonight/`: Dancing Tonight, Next.js site on Vercel (Root Directory `dancingtonight`).
-  * Build check: `cd dancingtonight && npm install && npm run build`
-  * Env vars on Vercel: `DATABASE_URL` (Postgres, for /admin analytics), `ADMIN_PASSWORD`, optional `NEXT_PUBLIC_SITE_URL`.
-  * Every data entry in `data/` must carry a real source link. Never invent events.
+## 자동 배포 선호
+변경을 끝내면 다시 묻지 말고 다음 순서로 진행합니다.
+1. 작업 브랜치에 커밋하고 푸시합니다.
+2. main으로 PR을 만들고 빌드가 통과하면 squash 병합합니다.
+3. 배포 주소를 보고합니다.

@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40d1d411a6c75df9415422c474b42a1e3b38dd747f": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": 60514,
+          "async": true
+        }
+      },
+      "filename": "app/admin/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "qHw8oBvnI7XYGPY8P7I6y8xK1hsN0B6BzejUnXnpmbY="
+}

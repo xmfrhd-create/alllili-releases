@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/city/layout,_N_T_/city/[slug]/layout,_N_T_/city/[slug]/page,_N_T_/city/tokyo"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/city/$d$slug/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/0a9dd34f956772323e926eac77f3c5db20071d5e3491c193303aa2878f090d87/$/city/tokyo",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/city/[slug]/page"
+    },
+    "isFallback": false
+  }
+}
